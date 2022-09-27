@@ -22,6 +22,7 @@ import (
 	_ "github.com/portworx/pxc/handler/cluster"
 	_ "github.com/portworx/pxc/handler/cluster/alerts"
 	_ "github.com/portworx/pxc/handler/config"
+	_ "github.com/portworx/pxc/handler/correlation"
 	_ "github.com/portworx/pxc/handler/login"
 	_ "github.com/portworx/pxc/handler/node"
 	_ "github.com/portworx/pxc/handler/plugin"

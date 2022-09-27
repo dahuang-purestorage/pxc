@@ -136,6 +136,7 @@ func (p *kubeConnection) GetLogs(
 			podName:      ci.Pod.Name,
 			podNamespace: ci.Pod.Namespace,
 		}
+		fmt.Println(lp)
 		lps = append(lps, lp)
 	}
 
